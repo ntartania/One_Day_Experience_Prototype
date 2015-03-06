@@ -86,7 +86,7 @@ feature 'An Administrator' do
       sign_in
       click_link 'profile_link'
       click_link 'Edit'
-      fill_in "Name", with: "Bob"
+      fill_in "profile[name]", with: "Bob"
       click_button 'Update Profile'
       expect(page).to have_content('Bob') 
     end

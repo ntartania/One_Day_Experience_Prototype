@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('#profile-image--sector').css('height',sectorImageWidth);
 	$('#profile-text--individual').css('height',sectorImageWidth);
 	$('.jsHandle').css('height',sectorImageWidth);
-	buildMap;
+
 	$('.jsHandle').css('margin-top','-100%');
 
 	if ($("#darkPage").length){
@@ -24,7 +24,6 @@ $(document).ready(function(){
 		$('.jsHandle').css({marginTop:startMargin}).animate({marginTop: 0},1000)
 	}, function() {	
 		$('.jsHandle').css({marginTop: 0}).animate({marginTop: startMargin},1000)
-
 	});
 
 });
