@@ -21,7 +21,7 @@ class ProfilesController < ProfilesBaseController
 
   def show
     allow_only_verified_profile
-    find_marker(@profile)
+    @hash = find_markers(@profile)
     @visit = Visit.new
   end
 
