@@ -1,8 +1,7 @@
-require 'profile_helper'
+
 # The Admin Profiles Controller is responsible for allowing an admin user to verify profiles
-class Admin::ProfilesController < ApplicationController
-  
-  include ProfileHelper
+class Admin::ProfilesController < ProfilesBaseController
+
   before_action :authenticate_admin!
 
   def unverified

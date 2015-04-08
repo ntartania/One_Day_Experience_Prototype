@@ -9,6 +9,10 @@ This is a project for [One Day from openIDEO](https://openideo.com/challenge/you
 - <a href="#team-members">Team Members</a>
 - <a href="#technologies">Technologies</a>
 
+![Screenshot1](public/images/screenshot1.png?raw=true)
+![Screenshot2](public/images/screenshot2.png?raw=true)
+![Screenshot3](public/images/screenshot3.png?raw=true)
+
 
 ##What does it do?
 It connects young people searching for a job inspiration with professionals that are ready to share their passion for a one-day in-work experience
@@ -66,5 +70,4 @@ Failure to do so will result in you not being able to store any photo.
 - [Johnathan Lakin](https://github.com/jjlakin)
 - [Huy Le](https://github.com/tekhuy)
 
-### Still to do:
-- 
+### Future Intentions

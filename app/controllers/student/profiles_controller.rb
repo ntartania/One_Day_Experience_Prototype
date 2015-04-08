@@ -1,7 +1,6 @@
-require 'profile_helper'
+
 #The Student Profiles Controller is responsible for allowing students to send emails via the profile pages
-class Student::ProfilesController < ApplicationController
-  include ProfileHelper
+class Student::ProfilesController < ProfilesBaseController
 
   before_action :authenticate_student!
   

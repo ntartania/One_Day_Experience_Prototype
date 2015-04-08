@@ -15,7 +15,7 @@
 <% end %>
 <section class="profile_form">
   
-  <%= form_for @profile, url: '/profile', html: {multipart: true} do |f| %>
+  <%= form_for @profile, url: "/profiles/#{@profile.id}", html: {multipart: true} do |f| %>
         <br>
   <%= f.file_field :image %><br><br>
   <section class="col span_7_of_16">

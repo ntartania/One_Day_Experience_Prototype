@@ -109,8 +109,22 @@ spacer.tiny {
 	
 }
 
+#svg-circle:hover {
+	stroke-width:10;
+}
 
+.box {
+	display: block;
+	padding: 20px;	
+}
 
+.box:hover {
+	background-color: #E0E0E0;
+}
+
+.underline {
+	border-bottom: 1px solid black;
+}
 
 
 
