@@ -1,0 +1,4 @@
+machine:
+  timezone: America/Toronto
+  ruby:
+    version: 2.2.0
